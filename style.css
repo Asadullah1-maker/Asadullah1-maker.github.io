@@ -1,29 +1,30 @@
 body {
-font-family: Arial, sans-serif;
-margin: 0;
-padding: 0;
-background-color: blue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    color: black;
 }
 header {
-background-color: pink;
-padding: 20px;      
-color: white;
-text-align: center;
-}         
+    background-color: pink;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
 nav a {
-color: white;
-margin: 0 15px;
-text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
 }
 nav a:hover {
-text-decoration: underline;
-}   
+    text-decoration: underline;
+}
 section {
     padding: 20px;
 }
 .intro, .projects, .blog-posts {
     margin: 20px 0;
-    padding: 800px;
+    padding: 20px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -51,7 +52,7 @@ button:hover {
 }
 .dark-mode {
     background-color: black;
-    color: black;
+    color: white;
 }
 .contact {
     background-color: deeppink;
@@ -76,7 +77,7 @@ button:hover {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
-}   
+}
 .contact button:hover {
     background-color: darkblue;
 }
