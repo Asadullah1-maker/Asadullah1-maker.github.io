@@ -1,3 +1,4 @@
+/* GLOBAL BASE STYLES */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,44 +6,48 @@ body {
     background-color: white;
     color: black;
 }
+
+/* HEADER */
 header {
-    background-color: Red;
+    background-color: red;
     padding: 20px;
     color: white;
     text-align: center;
-}
+} /* Fixed missing closing brace */
+
+/* NAVIGATION LINKS */
 nav a {
     color: white;
     margin: 0 15px;
     text-decoration: none;
 }
+
 nav a:hover {
     text-decoration: underline;
 }
-section {
-    padding: 20px;
-}
-.intro, .projects, .blog-posts {
-    margin: 20px 0;
-    padding: 20px;
+
+/* INTRO + PROJECTS + CONTACT */
+.intro, .projects, .contact {
     background-color: white;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+/* FOOTER */
 footer {
-    background-color: white;
+    background-color: pink;
     color: white;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-  }
-  .dark-mode footer {
-    background-color: #1e1e1e;
-    color: white;
-  }
-  
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/* GENERAL BUTTON (like toggle) */
 button {
-    background-color: white;
+    background-color: #333;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -50,47 +55,44 @@ button {
     cursor: pointer;
     border-radius: 5px;
 }
+
 button:hover {
-    background-color: darkblue;
+    background-color: #555;
 }
-.dark-mode {
-    background-color: black;
-    color: white;
-}
+
+/* CONTACT STYLES */
 .contact {
-    background-color: Red;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 20px 0;
+    background-color: red;
     color: white;
     text-align: center;
 }
+
 .contact input, .contact textarea {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid white;
     border-radius: 5px;
+    box-sizing: border-box;
 }
+
 .contact button {
-    background-color: Red;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-.contact button:hover {
-    background-color: white;
-}
-/* Dark mode background and text color globally */
-.dark-mode {
-    background-color: Red;
+    background-color: darkred;
     color: white;
 }
 
-/* Dark mode for main sections */
+.contact button:hover {
+    background-color: white;
+    color: red;
+}
+
+/* DARK MODE BASE */
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+/* DARK MODE FOR SECTIONS */
 .dark-mode header,
 .dark-mode footer,
 .dark-mode .intro,
@@ -100,25 +102,36 @@ button:hover {
     color: white;
 }
 
-/* Dark mode for nav links */
+/* DARK MODE NAV LINKS */
 .dark-mode nav a {
     color: white;
 }
 
-/* Dark mode button style */
+/* DARK MODE BUTTONS */
 .dark-mode button {
     background-color: red;
     color: white;
 }
 
 .dark-mode button:hover {
-    background-color: #666;
+    background-color: #ff6666;
 }
 
-/* Dark mode for input fields */
+/* DARK MODE INPUTS */
 .dark-mode input,
 .dark-mode textarea {
     background-color: #222;
     color: white;
     border: 1px solid red;
+}
+
+/* CONTACT BUTTON IN DARK MODE */
+.dark-mode .contact button {
+    background-color: red;
+    color: white;
+}
+
+.dark-mode .contact button:hover {
+    background-color: white;
+    color: red;
 }
