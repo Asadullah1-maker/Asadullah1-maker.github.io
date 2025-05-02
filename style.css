@@ -74,7 +74,7 @@ button:hover {
     border-radius: 5px;
 }
 .contact button {
-    background-color: white;
+    background-color: Red;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -86,7 +86,7 @@ button:hover {
 }
 /* Dark mode background and text color globally */
 .dark-mode {
-    background-color: #121212;
+    background-color: Red;
     color: white;
 }
 
