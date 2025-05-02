@@ -34,10 +34,13 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
+    margin-top: 20px;
+  }
+  .dark-mode footer {
+    background-color: #1e1e1e;
+    color: white;
+  }
+  
 button {
     background-color: blue;
     color: white;
@@ -80,4 +83,42 @@ button:hover {
 }
 .contact button:hover {
     background-color: darkblue;
+}
+/* Dark mode background and text color globally */
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+/* Dark mode for main sections */
+.dark-mode header,
+.dark-mode footer,
+.dark-mode .intro,
+.dark-mode .projects,
+.dark-mode .contact {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+/* Dark mode for nav links */
+.dark-mode nav a {
+    color: white;
+}
+
+/* Dark mode button style */
+.dark-mode button {
+    background-color: red;
+    color: white;
+}
+
+.dark-mode button:hover {
+    background-color: #666;
+}
+
+/* Dark mode for input fields */
+.dark-mode input,
+.dark-mode textarea {
+    background-color: #222;
+    color: white;
+    border: 1px solid red;
 }
