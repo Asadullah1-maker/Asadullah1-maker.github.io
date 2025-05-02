@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: blue;
+    background-color: white;
     color: black;
 }
 header {
@@ -30,7 +30,7 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 footer {
-    background-color: pink;
+    background-color: white;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -42,7 +42,7 @@ footer {
   }
   
 button {
-    background-color: blue;
+    background-color: white;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -58,7 +58,7 @@ button:hover {
     color: white;
 }
 .contact {
-    background-color: deeppink;
+    background-color: Red;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -70,11 +70,11 @@ button:hover {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     border-radius: 5px;
 }
 .contact button {
-    background-color: blue;
+    background-color: white;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -82,7 +82,7 @@ button:hover {
     border-radius: 5px;
 }
 .contact button:hover {
-    background-color: darkblue;
+    background-color: white;
 }
 /* Dark mode background and text color globally */
 .dark-mode {
